@@ -104,7 +104,8 @@ passport.use(new OIDCStrategy({
     identityMetadata: config.creds.identityMetadata,
     responseType: config.creds.responseType,
     responseMode: config.creds.responseMode,
-    skipUserProfile: config.creds.skipUserProfile
+    skipUserProfile: config.creds.skipUserProfile,
+    tenantName: config.creds.tenantName
     //scope: config.creds.scope
   },
   function(iss, sub, profile, accessToken, refreshToken, done) {
