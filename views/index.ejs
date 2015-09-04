@@ -1,6 +1,7 @@
 <% if (!user) { %>
     <h2>Welcome! Please log in.</h2>
-    <a href="/login">Log In</a>
+    <a href="/login">Sign In</a></br>
+    <a href="/login?p=B2C_1_StandardSignUp">Sign up</a>
 <% } else { %>
     <h2>Hello, <%= user.displayName %>.</h2>
     <a href="/account">Account Info</a></br>
