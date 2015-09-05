@@ -218,8 +218,6 @@ app.post('/auth/openid/return',
     res.redirect('/');
   });
 
-app.listen(80);
-
 // Enable SSL
 //
 https.createServer(options, app).listen(443);
