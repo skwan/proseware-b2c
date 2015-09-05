@@ -32,6 +32,10 @@ var util = require('util');
 var bunyan = require('bunyan');
 var config = require('./config');
 
+// Enable CORS for server up custom HTML pages for B2C
+//
+var cors = require('cors');
+
 // Enable SSL
 //
 var https = require('https');
@@ -208,7 +212,7 @@ app.post('/auth/openid/return',
 
 // Some routes for static content
 //
-app.get('/public/*', function(req,res){
+app.get('/public/*', cors(), function(req,res,next){
   res.sendfile(req.params[0], {root: './public'});
 });
 
