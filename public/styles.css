@@ -858,6 +858,34 @@ body {
   width:1367px;
   height:901px;
 }
+#u1a {
+  position:absolute;
+  left:0px;
+  top:-10px;
+  width:1365px;
+  height:177px;
+}
+#u1a_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1365px;
+  height:177px;
+}
+#u1b {
+  position:absolute;
+  left:0px;
+  top:844px;
+  width:1366px;
+  height:47px;
+}
+#u1b_img {
+  position:absolute;
+  left:0px;
+  top:854px;
+  width:1366px;
+  height:47px;
+}
 #u2 {
   position:absolute;
   left:2px;
