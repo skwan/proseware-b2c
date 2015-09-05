@@ -156,7 +156,8 @@ app.configure(function() {
 // Including CORS so B2C can read the custom HTML files
 //
 // app.options('/public/*', cors());
-app.get('/public/*', cors(), function(req,res){
+app.use(cors());
+app.get('/public/*', function(req, res){
   res.sendfile(req.params[0], {root: './public'});
 });
 
