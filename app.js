@@ -156,7 +156,7 @@ app.configure(function() {
 // Some routes for static content
 //
 // app.options('/public/*', cors());
-app.get('/public/*', function(req, res){
+app.get('/public/*', function(req, res, next){
   res.sendfile(req.params[0], {root: './public'});
 });
 
