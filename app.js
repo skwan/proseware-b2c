@@ -208,9 +208,9 @@ app.post('/auth/openid/return',
 
 // Some routes for static content
 //
-//app.get('/public/*', function(req,res){
-//  res.sendfile(req.params[0], {root: './public'});
-//});
+app.get('/public/*', function(req,res){
+  res.sendfile(req.params[0], {root: './public'});
+});
 
 // Enable SSL
 //
