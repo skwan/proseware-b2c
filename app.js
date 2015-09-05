@@ -133,6 +133,7 @@ passport.use(new OIDCStrategy({
 
 // configure Express (Section 2)
 var app = express();
+app.use(cors());
 
 app.configure(function() {
   app.set('views', __dirname + '/views');
@@ -153,10 +154,8 @@ app.configure(function() {
 // Routes (Section 4)
 
 // Some routes for static content
-// Including CORS so B2C can read the custom HTML files
 //
 // app.options('/public/*', cors());
-app.use(cors());
 app.get('/public/*', function(req, res){
   res.sendfile(req.params[0], {root: './public'});
 });
