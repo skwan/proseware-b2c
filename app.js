@@ -148,6 +148,7 @@ app.configure(function() {
   app.use(passport.session());
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
+  app.use(cors);
 });
 
 // Routes (Section 4)
@@ -213,8 +214,11 @@ app.post('/auth/openid/return',
 // Some routes for static content
 // Including CORS so B2C can read the custom HTML files
 //
-app.options('/public/*', cors());
-app.get('/public/*', cors(), function(req,res,next){
+// app.options('/public/*', cors());
+// app.get('/public/*', cors(), function(req,res,next){
+//   res.sendfile(req.params[0], {root: './public'});
+//});
+app.get('/public/*', function(req,res,next){
   res.sendfile(req.params[0], {root: './public'});
 });
 
