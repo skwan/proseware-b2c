@@ -133,7 +133,6 @@ passport.use(new OIDCStrategy({
 
 // configure Express (Section 2)
 var app = express();
-app.use(cors());
 
 app.configure(function() {
   app.set('views', __dirname + '/views');
@@ -156,7 +155,7 @@ app.configure(function() {
 // Some routes for static content
 //
 // app.options('/public/*', cors());
-app.get('/public/*', function(req, res, next){
+app.get('/public/*', cors(), function(req, res, next){
   res.sendfile(req.params[0], {root: './public'});
 });
 
@@ -218,6 +217,8 @@ app.post('/auth/openid/return',
 
     res.redirect('/');
   });
+
+app.listen(80);
 
 // Enable SSL
 //
