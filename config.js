@@ -2,7 +2,7 @@
   //
  exports.creds = {
  	returnURL: 'https://proseware.skwantoso.com/auth/openid/return',
- 	identityMetadata: 'https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration', // For using Microsoft you should never need to change this.
+ 	identityMetadata: 'https://login.microsoftonline.com/prosewareb2c.onmicrosoft.com/v2.0/.well-known/openid-configuration', // For using Microsoft you should never need to change this.
  	clientID: '9bdade37-a70b-4eee-ae7a-b38e2c8a1416',
  	clientSecret: '8s<Xb3</AVX)(I**',
 	tenantName: 'prosewareb2c.onmicrosoft.com',
