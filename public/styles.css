@@ -875,21 +875,22 @@ body {
 #u1b {
   position:absolute;
   left:0px;
-  top:744px;
+  top:544px;
   width:1366px;
   height:47px;
 }
 #u1b_img {
   position:absolute;
   left:0px;
-  top:754px;
+  top:554px;
   width:1366px;
   height:47px;
 }
 #api {
   position:absolute;
-  left:100px;
-  top:100px;
+  left:300px;
+  top:300px;
+  text-align:center;
 }
 #u2 {
   position:absolute;
