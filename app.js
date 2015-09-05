@@ -206,6 +206,15 @@ app.post('/auth/openid/return',
     res.redirect('/');
   });
 
+// Some routes for static content
+//
+app.get('/images/*', function(req,res){
+  res.sendfile(req.params[0], {root: './images'});
+});
+app.get('/styles/*', function(req,res){
+  res.sendfile(req.params[0], {root: './styles'});
+});
+
 // Enable SSL
 //
 https.createServer(options, app).listen(443);
