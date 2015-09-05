@@ -211,7 +211,9 @@ app.post('/auth/openid/return',
   });
 
 // Some routes for static content
+// Including CORS so B2C can read the custom HTML files
 //
+app.options('/public/*', cors());
 app.get('/public/*', cors(), function(req,res,next){
   res.sendfile(req.params[0], {root: './public'});
 });
