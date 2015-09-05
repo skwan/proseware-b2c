@@ -208,11 +208,8 @@ app.post('/auth/openid/return',
 
 // Some routes for static content
 //
-app.get('/images/*', function(req,res){
-  res.sendfile(req.params[0], {root: './images'});
-});
-app.get('/styles/*', function(req,res){
-  res.sendfile(req.params[0], {root: './styles'});
+app.get('/public/*', function(req,res){
+  res.sendfile(req.params[0], {root: './public'});
 });
 
 // Enable SSL
