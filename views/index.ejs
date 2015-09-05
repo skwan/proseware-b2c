@@ -1,9 +1,55 @@
-<% if (!user) { %>
-    <h2>Welcome! Please log in.</h2>
-    <a href="/login">Sign In</a></br>
-    <a href="/login?p=B2C_1_StandardSignUp">Sign up</a>
-<% } else { %>
-    <h2>Hello, <%= user.displayName %>.</h2>
-    <a href="/account">Account Info</a></br>
-    <a href="/logout">Log Out</a>
-<% } %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="styles.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Background) -->
+
+      <!-- Unnamed (Image) -->
+      <div id="u1" class="ax_image">
+        <img id="u1_img" class="img " src="images/u1.png"/>
+        <!-- Unnamed () -->
+        <div id="u2" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Sign in (Shape) -->
+      <div id="u3" class="ax_shape" data-label="Sign in">
+        <img id="u3_img" class="img " src="images/sign_in_u3.png"/>
+        <!-- Unnamed () -->
+        <div id="u4" class="text">
+          <!-- <p><span>Sign in</span></p> -->
+          <a href="/login">Sign In</a>
+        </div>
+      </div>
+
+      <!-- Sign up (Shape) -->
+      <div id="u5" class="ax_shape" data-label="Sign up">
+        <img id="u5_img" class="img " src="images/sign_in_u3.png"/>
+        <!-- Unnamed () -->
+        <div id="u6" class="text">
+          <!-- <p><span>Sign up</span></p> -->
+          <a href="/login?p=B2C_1_StandardSignUp">Sign up</a>
+        </div>
+      </div>
+
+      <!-- Image (Image) -->
+      <div id="u7" class="ax_image" data-label="Image">
+        <img id="u7_img" class="img " src="images/image_u7.png"/>
+        <!-- Unnamed () -->
+        <div id="u8" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
