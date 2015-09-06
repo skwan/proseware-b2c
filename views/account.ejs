@@ -1,71 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Home</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <link href="./public/styles.css" type="text/css" rel="stylesheet"/>
-  </head>
-  <body>
-    <div id="base" class="">
-
-      <!-- Top banner image -->
-      <div id="u1a" class="ax_image">
-        <img id="u1a_img" class="img " src="./public/u1a.png"/>
-        <!-- Unnamed () -->
-        <div id="u2" class="text">
-          <p><span></span></p>
-        </div>
-      </div>
-
-      <!-- Bottom banner image -->      
-      <div id="u1b" class="ax_image">
-        <img id="u1b_img" class="img " src="./public/u1b.png"/>
-        <!-- Unnamed () -->
-        <div id="u2" class="text">
-          <p><span></span></p>
-        </div>
-      </div>
-      
-      <% if (!user) { %>
-
-      <!-- User is not signed in, show sign in prompt message -->
-
-      <!-- Sign in (Shape) -->
-      <div id="u3" class="ax_shape" data-label="Sign in">
-        <img id="u3_img" class="img " src="./public/sign_in_u3.png"/>
-        <!-- Unnamed () -->
-        <div id="u4" class="text">
-          <!-- <p><span>Sign in</span></p> -->
-          <a href="/login?p=B2C_1_StandardSignIn">Sign In</a>
-        </div>
-      </div>
-
-      <!-- Sign up (Shape) -->
-      <div id="u5" class="ax_shape" data-label="Sign up">
-        <img id="u5_img" class="img " src="./public/sign_in_u3.png"/>
-        <!-- Unnamed () -->
-        <div id="u6" class="text">
-          <!-- <p><span>Sign up</span></p> -->
-          <a href="/login?p=B2C_1_StandardSignUp">Sign up</a>
-        </div>
-      </div>
-
-      <div id="notSignedInMessage">
-        <p>Please sign in to view user details</p>
-      </div>
-
-      <% } else { %>
-
-      <!-- User is signed in, show details -->
-
-      <div id="userDetails">
-      <%- JSON.stringify(user._json, null, 4) %>
-      <p></p>
-      </div>
-      
-      <% } %>      
-      
-  </body>
-</html>
+<% if (!user) { %>
+    <h2>Welcome! Please log in.</h2>
+    <a href="/login">Log In</a>
+<% } else { %>
+<p>Full Claims</p>
+<%- JSON.stringify(user._json, null, 4) %>
+<p></p>
+<a href="/logout">Log Out</a>
+<% } %>
