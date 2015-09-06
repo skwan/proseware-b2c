@@ -4,7 +4,7 @@
 <% } else { %>
 <p>Full Claims</p>
 <p>
-<%- JSON.stringify(user._json, 4) %>
+<%- JSON.stringify(user._json, null, 4) %>
 </p>
 <a href="/logout">Log Out</a>
 <% } %>
