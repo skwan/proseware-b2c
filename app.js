@@ -164,7 +164,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/account', function(req, res){
-  res.render('account', { user: req.user });
+  res.render('account', { user: req.user._json });
 });
 
 app.get('/login',
