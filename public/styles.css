@@ -892,6 +892,18 @@ body {
   top:300px;
   text-align:center;
 }
+#notSignedInMessage {
+  position:absolute;
+  left:300px;
+  top:300px;
+  text-align:center;
+}
+#userDetails {
+  position:absolute;
+  left:300px;
+  top:300px;
+  text-align:center;  
+}
 #u2 {
   position:absolute;
   left:2px;
