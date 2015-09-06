@@ -229,6 +229,6 @@ https.createServer(options, app).listen(443);
 //   login page.
 function ensureAuthenticated(req, res, next) {
   if (req.isAuthenticated()) { return next(); }
-  res.redirect('/login')
+  res.redirect('/login?p=B2C_1_StandardSignIn')
 }
 
