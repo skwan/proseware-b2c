@@ -163,7 +163,7 @@ app.get('/', function(req, res){
   res.render('index', { user: req.user });
 });
 
-app.get('/account', ensureAuthenticated, function(req, res){
+app.get('/account', function(req, res){
   res.render('account', { user: req.user });
 });
 
