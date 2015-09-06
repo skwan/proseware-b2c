@@ -61,10 +61,8 @@
       <!-- User is signed in, show details -->
 
       <div id="userDetails">
-      <pre>
-      <%- JSON.stringify(user._json, null, 4) %>
+        <pre><%- JSON.stringify(user, null, 4) %></pre>
       </div>
-      </pre>
       <% } %>      
       
   </body>
