@@ -3,7 +3,8 @@
     <a href="/login">Log In</a>
 <% } else { %>
 <p>Full Claims</p>
+<p>
 <%- JSON.stringify(user, null, 4) %>
-<p></p>
+</p>
 <a href="/logout">Log Out</a>
 <% } %>
