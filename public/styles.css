@@ -901,6 +901,7 @@ body {
   position:absolute;
   left:25px;
   top:200px;
+  white-space:pre-wrap;
 }
 #u2 {
   position:absolute;
