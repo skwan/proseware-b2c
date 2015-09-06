@@ -859,32 +859,14 @@ body {
   height:901px;
 }
 #u1a {
-  position:absolute;
-  left:0px;
-  top:-10px;
-  width:1365px;
-  height:177px;
-}
-#u1a_img {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:1365px;
-  height:177px;
+  position:fixed;
+  left:0;
+  top:0;
 }
 #u1b {
-  position:absolute;
-  left:0px;
-  top:394px;
-  width:1366px;
-  height:47px;
-}
-#u1b_img {
-  position:absolute;
-  left:0px;
-  top:404px;
-  width:1366px;
-  height:47px;
+  position:fixed;
+  left:0;
+  bottom:0;
 }
 #api {
   position:absolute;
