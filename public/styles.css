@@ -898,6 +898,7 @@ body {
   top:300px;
 }
 #userDetails {
+  font-family: 'Courier New', 'Courier', 'monospace';
   position:absolute;
   left:25px;
   top:200px;
