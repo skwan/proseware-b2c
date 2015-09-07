@@ -564,6 +564,24 @@
   background-color: transparent;
   background-image: url("https://proseware.skwantoso.com/public/images/u19.png");  
 }
+#SignInWithLogonNameExchange {
+  position:absolute;
+  left:83px;
+  top:259px;
+  width:250px;
+  height:46px;
+  margin:0px;
+  font-family:'Arial Regular', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border:none;
+  background-color: transparent;
+  background-image: url("https://proseware.skwantoso.com/public/images/u19.png");  
+}
 #u36_img.mouseOver {
 }
 #u36.mouseOver {
