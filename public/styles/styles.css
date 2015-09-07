@@ -410,12 +410,34 @@
   width:250px;
   height:46px;
 }
+#api {
+  position:absolute;
+  left:480px;
+  top:240px;
+  width:422px;
+  height:340px;
+  overflow:hidden;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+ul {
+  list-style-type:none;
+}
 #GoogleExchange {
   position:absolute;
-  left:0px;
-  top:0px;
+  left:83px;
+  top:63px;
   width:250px;
   height:46px;
+  font-family:'Arial Regular', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
   border:none;
   background-image: url("https://proseware.skwantoso.com/public/images/u13.png");  
 }
@@ -449,10 +471,17 @@
 }
 #FacebookExchange {
   position:absolute;
-  left:0px;
-  top:0px;
+  left:83px;
+  top:118px;
   width:250px;
   height:46px;
+  font-family:'Arial Regular', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
   border:none;
   background-image: url("https://proseware.skwantoso.com/public/images/u15.png");  
 }
@@ -512,12 +541,19 @@
   width:250px;
   height:46px;
 }
-#SignUpWithLogonEmailExchangeExchange {
+#SignUpWithLogonEmailExchange {
   position:absolute;
-  left:0px;
-  top:0px;
+  left:83px;
+  top:259px;
   width:250px;
   height:46px;
+  font-family:'Arial Regular', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
   border:none;
   background-image: url("https://proseware.skwantoso.com/public/images/u19.png");  
 }
