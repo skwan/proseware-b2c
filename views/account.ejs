@@ -14,17 +14,8 @@
     <div id="base" class="">
 
       <!-- Top banner image -->
-      <div id="u1a" class="ax_image">
-        <img id="u1a_img" class="img " src="./public/images/u1a.png"/>
-        <!-- Unnamed () -->
-        <div id="u2" class="text">
-          <p><span></span></p>
-        </div>
-      </div>
-
-      <!-- Bottom banner image -->      
-      <div id="u1b" class="ax_image">
-        <img id="u1b_img" class="img " src="./public/images/u1b.png"/>
+      <div id="u1" class="ax_image">
+        <img id="u1_img" class="img " src="./public/images/u1.png"/>
         <!-- Unnamed () -->
         <div id="u2" class="text">
           <p><span></span></p>
@@ -64,7 +55,7 @@
       <!-- User is signed in, show details -->
 
       <div id="userDetails" class="ax_paragraph">
-        <p><%- JSON.stringify(user, null, 4) %></p>
+        <p style="white-space: pre-wrap"><%- JSON.stringify(user, null, 4) %></p>
       </div>
       <% } %>      
       
