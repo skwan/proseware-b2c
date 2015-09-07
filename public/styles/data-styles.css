@@ -257,7 +257,7 @@
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    background-color: transparent;
-    height:89px;
-    width:28px;
+    background-image: url("../public/images/sign_in_u3.png");
+    height:28px;
+    width:89px;
 }
