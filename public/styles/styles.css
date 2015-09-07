@@ -422,6 +422,9 @@
   text-align:center;
   line-height:normal;
 }
+#api p {
+  visibility: hidden;
+}
 #GoogleExchange {
   position:absolute;
   left:83px;
