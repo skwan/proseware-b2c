@@ -138,6 +138,9 @@
 #api label {
   visibility: hidden;
 }
+#api helpText {
+  visibility: hidden;
+}
 #email {
   position:absolute;
   left:38px;
