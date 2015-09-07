@@ -777,3 +777,9 @@
   overflow:hidden;
   background-image:url('https://proseware.skwantoso.com/public/images/transparent.gif');
 }
+#userDetails {
+  position:absolute;
+  left:20px;
+  top:200px;
+  white-space: pre-wrap;
+}
