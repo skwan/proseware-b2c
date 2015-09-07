@@ -164,7 +164,7 @@
   width:34px;
   height:30px;
   overflow:hidden;
-  background-image:url('../../images/transparent.gif');
+  background-image:url('https://proseware.skwantoso.com/public/images/transparent.gif');
 }
 #u13 {
   position:absolute;
@@ -417,7 +417,7 @@
   width:250px;
   height:46px;
   border:none;
-  background-image: url("../images/u13.png");  
+  background-image: url("https://proseware.skwantoso.com/public/images/u13.png");  
 }
 #u30_img.mouseOver {
 }
@@ -454,7 +454,7 @@
   width:250px;
   height:46px;
   border:none;
-  background-image: url("../images/u15.png");  
+  background-image: url("https://proseware.skwantoso.com/public/images/u15.png");  
 }
 #u32_img.mouseOver {
 }
@@ -519,7 +519,7 @@
   width:250px;
   height:46px;
   border:none;
-  background-image: url("../images/u19.png");  
+  background-image: url("https://proseware.skwantoso.com/public/images/u19.png");  
 }
 #u36_img.mouseOver {
 }
@@ -732,5 +732,5 @@
   width:420px;
   height:100px;
   overflow:hidden;
-  background-image:url('../../images/transparent.gif');
+  background-image:url('https://proseware.skwantoso.com/public/images/transparent.gif');
 }

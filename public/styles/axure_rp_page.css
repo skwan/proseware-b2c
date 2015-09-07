@@ -59,7 +59,7 @@ div.refpageimage {
 	width: 16px;
 	height: 16px;
 	cursor: pointer;
-	background-image: url(images/newwindow.gif);
+	background-image: url(https://proseware.skwantoso.com/public/images/newwindow.gif);
 	background-repeat: no-repeat;
 }
 
@@ -71,7 +71,7 @@ div.annnoteimage {
 	width: 16px;
 	height: 12px;
 	cursor: help;
-	background-image: url(images/note.gif);
+	background-image: url(https://proseware.skwantoso.com/public/images/note.gif);
 	background-repeat: no-repeat;
 }
 
