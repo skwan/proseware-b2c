@@ -256,5 +256,8 @@
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-    text-decoration: none; 
+    text-decoration: none;
+    background-color: transparent;
+    height:89px;
+    width:28px;
 }
