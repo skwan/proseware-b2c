@@ -416,14 +416,12 @@
   top:240px;
   width:422px;
   height:340px;
+  margin:0px;
   overflow:hidden;
   font-size:13px;
   color:#333333;
   text-align:center;
   line-height:normal;
-}
-ul {
-  list-style-type:none;
 }
 #GoogleExchange {
   position:absolute;
