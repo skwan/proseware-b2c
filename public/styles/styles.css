@@ -416,7 +416,6 @@
   top:240px;
   width:422px;
   height:340px;
-  margin:0px;
   overflow:hidden;
   font-size:13px;
   color:#333333;
@@ -429,6 +428,7 @@
   top:63px;
   width:250px;
   height:46px;
+  margin:0px;
   font-family:'Arial Regular', 'Arial';
   font-weight:400;
   font-style:normal;
