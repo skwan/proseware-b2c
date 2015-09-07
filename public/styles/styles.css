@@ -781,5 +781,10 @@
   position:absolute;
   left:20px;
   top:200px;
+  width:420px;
+  font-family: 'Courier New, Courier, monospace';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
   white-space: pre-wrap;
 }
