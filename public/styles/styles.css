@@ -785,12 +785,13 @@
   font-family: 'Courier New, Courier, monospace';
   font-weight:400;
   font-style:normal;
-  font-size:20px;
+  font-size:24px;
   white-space: pre-wrap;
 }
 #goToAccountDetails {
   position:absolute;
   left:20px;
-  top:200px;
+  top:300px;
   width:1300px;
+  font-size:24px;
 }
