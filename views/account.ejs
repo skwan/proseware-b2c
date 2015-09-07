@@ -55,8 +55,19 @@
       <!-- User is signed in, show details -->
 
       <div id="userDetails" class="ax_paragraph">
+        <a ref="/index">Go home</a></br>
         <p><%- JSON.stringify(user, null, 4) %></p>
       </div>
+      
+      <!-- Sign up (Shape) -->
+      <div id="u5" class="ax_shape" data-label="Sign out">
+        <img id="u5_img" class="img " src="./public/images/sign_in_u3.png"/>
+        <!-- Unnamed () -->
+        <div id="u6" class="text">
+          <a href="/logout?p=B2C_1_StandardSignUp">Sign out</a>
+        </div>
+      </div>
+      
       <% } %>      
       
   </body>
