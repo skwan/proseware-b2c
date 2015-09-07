@@ -373,6 +373,7 @@
   width:422px;
   height:340px;
   overflow:hidden;
+  pointer-events: none;
 }
 #u29_state0 {
   position:absolute;
@@ -384,7 +385,6 @@
   overflow-x:hidden;
   -ms-overflow-y:hidden;
   overflow-y:hidden;
-  pointer-events: none;
   background-image:none;
 }
 #u29_state0_content {
