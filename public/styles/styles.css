@@ -788,3 +788,9 @@
   font-size:20px;
   white-space: pre-wrap;
 }
+#goToAccountDetails {
+  position:absolute;
+  left:20px;
+  top:200px;
+  width:1300px;
+}

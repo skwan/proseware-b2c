@@ -8,7 +8,6 @@
     <link href="./public/styles/axure_rp_page.css" type="text/css" rel="stylesheet"/>
     <link href="./public/styles/data-styles.css" type="text/css" rel="stylesheet"/>
     <link href="./public/styles/styles.css" type="text/css" rel="stylesheet"/>
-
   </head>
   <body>
     <div id="base" class="">
@@ -23,6 +22,8 @@
           <p><span></span></p>
         </div>
       </div>
+
+      <% if (!user) { %>
 
       <!-- Sign in (Shape) -->
       <div id="u3" class="ax_shape" data-label="Sign in">
@@ -52,6 +53,15 @@
           <p><span></span></p>
         </div>
       </div>
+
+      <% } else { %>
+      
+      <div id="goToAccountDetails" class="ax_paragraph">
+        <p>Welcome <%= user.displayName> %>!</p></br>
+        <a href="/account">See account details</a>
+      </div>
+      
+      <% } %>
 
     </div>
   </body>
