@@ -54,8 +54,11 @@
 
       <!-- User is signed in, show details -->
 
+      <div id="returnLink" class="ax_paragraph">
+        <a href="/">Go home</a></br>
+      </div>
+
       <div id="userDetails" class="ax_paragraph">
-        <a href="/index">Go home</a></br>
         <p><%- JSON.stringify(user, null, 4) %></p>
       </div>
       

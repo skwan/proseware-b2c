@@ -795,6 +795,12 @@
   overflow:hidden;
   background-image:url('https://proseware.skwantoso.com/public/images/transparent.gif');
 }
+#returnLink {
+  position:absolute;
+  left:20px;
+  top:150px;
+  width:1300px;
+}
 #userDetails {
   position:absolute;
   left:20px;
