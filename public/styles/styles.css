@@ -441,6 +441,7 @@
   text-align:center;
   line-height:normal;
   border:none;
+  background-color: transparent;  
   background-image: url("https://proseware.skwantoso.com/public/images/u13.png");  
 }
 #u30_img.mouseOver {
@@ -486,6 +487,7 @@
   text-align:center;
   line-height:normal;
   border:none;
+  background-color: transparent;
   background-image: url("https://proseware.skwantoso.com/public/images/u15.png");  
 }
 #u32_img.mouseOver {
@@ -559,6 +561,7 @@
   text-align:center;
   line-height:normal;
   border:none;
+  background-color: transparent;
   background-image: url("https://proseware.skwantoso.com/public/images/u19.png");  
 }
 #u36_img.mouseOver {
