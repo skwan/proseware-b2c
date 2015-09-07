@@ -152,6 +152,20 @@
   color:#333333;
   text-align:left;  
 }
+#email_ver_input {
+  position:absolute;
+  left:38px;
+  top:368px;
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;
+}
 #u11 {
   position:absolute;
   left:502px;
@@ -522,6 +536,25 @@
   background-color: transparent;
   background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
 }
+#email_ver_but_verify {
+  position:absolute;
+  left:37px;
+  top:425px;
+  width:112px;
+  height:30px;
+  margin:0px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border: none;
+  background-color: transparent;
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
+}
+
 #u28 {
   position:absolute;
   left:2px;
