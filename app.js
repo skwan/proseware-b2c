@@ -220,7 +220,7 @@ app.post('/auth/openid/return',
 
 // Enable SSL
 //
-https.createServer(options, app).listen(443);
+https.createServer(options, app).listen(8443);
 
 // Simple route middleware to ensure user is authenticated. (Section 4)
 //   Use this route middleware on any resource that needs to be protected.  If
