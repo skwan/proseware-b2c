@@ -142,7 +142,7 @@
   visibility: hidden;
 }
 .attrEntry input:invalid {
-  border-color: hsla(210,54%,20%,.15) hsla(210,54%,20%,.17) hsla(210,54%,20%,.2);
+  outline: initial;
 }
 #email {
   position:absolute;
