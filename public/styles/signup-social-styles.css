@@ -560,7 +560,7 @@
 #email_ver_but_verify {
   position:absolute;
   left:501px;
-  top:425px;
+  top:354px;
   width:112px;
   height:30px;
   margin:0px;
@@ -578,7 +578,7 @@
 #email_ver_but_resend {
   position:absolute;
   left:630px;
-  top:425px;
+  top:354px;
   width:112px;
   height:30px;
   margin:0px;
@@ -596,7 +596,7 @@
 #email_ver_but_default {
   position:absolute;
   left:630px;
-  top:425px;
+  top:354px;
   width:112px;
   height:30px;
   margin:0px;
