@@ -798,19 +798,19 @@
 #returnLink {
   position:absolute;
   left:20px;
-  top:190px;
-  font-size:24px;
+  top:200px;
+  font-size:20px;
   width:1300px;
 }
 #userDetails {
   position:absolute;
   left:20px;
-  top:200px;
+  top:300px;
   width:1300px;
   font-family: 'Courier New, Courier, monospace';
   font-weight:400;
   font-style:normal;
-  font-size:24px;
+  font-size:20px;
   white-space: pre-wrap;
 }
 #goToAccountDetails {
