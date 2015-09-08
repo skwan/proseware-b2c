@@ -141,6 +141,9 @@
 .helpText {
   visibility: hidden;
 }
+.attrEntry input:invalid {
+  visibility: hidden;
+}
 #email {
   position:absolute;
   left:38px;
