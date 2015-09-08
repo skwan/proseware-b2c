@@ -138,7 +138,7 @@
 #api label {
   visibility: hidden;
 }
-#api helpText {
+.helpText {
   visibility: hidden;
 }
 #email {
