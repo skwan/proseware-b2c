@@ -9,7 +9,7 @@
     <link href="https://proseware.skwantoso.com/public/styles/data-styles.css" type="text/css" rel="stylesheet"/>
     <link href="https://proseware.skwantoso.com/public/styles/signup-styles.css" type="text/css" rel="stylesheet"/>
   </head>
-  <body onLoad="document.email.focus()">
+  <body>
     <div id="base" class="">
 
       <!-- Unnamed (Background) -->
@@ -32,7 +32,7 @@
                       <label>
                           Email address
                       </label>
-                      <input id="email" class="textInput" type="text" placeholder=" " required="" autofocus="">
+                      <input id="email" class="textInput" type="text">
                   </div>
               </li>
               <li>
@@ -40,7 +40,7 @@
                       <label>
                           Enter password
                       </label>
-                      <input id="password" class="textInput" type="password" placeholder=" " pattern="..." title="..." required="">
+                      <input id="password" class="textInput" type="password">
                   </div>
               </li>
               <li>
@@ -48,7 +48,7 @@
                       <label>
                           Reenter password
                       </label>
-                      <input id="reenterPassword" class="textInput" type="password" placeholder=" " pattern="..." title=" " required="">
+                      <input id="reenterPassword" class="textInput" type="password">
                   </div>
               </li>
               <li>
@@ -56,7 +56,7 @@
                       <label>
                           Name
                       </label>
-                      <input id="displayName" class="textInput" type="text" placeholder="" required="">
+                      <input id="displayName" class="textInput" type="text">
                   </div>
               </li>
               <li>
@@ -64,7 +64,7 @@
                       <label>
                           Membership Number (Optional)
                       </label>
-                      <input id="extension_MembershipNumber" class="textInput" type="text" placeholder="" required="">
+                      <input id="extension_MembershipNumber" class="textInput" type="text">
                   </div>
               </li>
               <li>
@@ -73,7 +73,7 @@
                           Offering Type
                       </label>
                       <select class="dropdown_single" id="extension_OfferingType">
-                          <option style="display:none" disabled="disabled" value="placeholder" selected="">
+                          <option style="display:none">
                               Select
                           </option>
                           <option value="1">
@@ -91,7 +91,7 @@
               <li>
           </ul>
           <div class="buttons">
-              <button id="continue" disabled="">
+              <button id="continue">
                   Continue
               </button>
               <button id="cancel">
