@@ -411,6 +411,9 @@
   width:250px;
   height:46px;
 }
+.attrEntry input:invalid {
+  visibility: hidden;
+}
 #api {
   position:absolute;
   left:480px;
