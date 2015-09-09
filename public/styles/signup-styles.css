@@ -144,10 +144,6 @@
 .attrEntry input:invalid {
   outline: 0;
 }
-.attrEntry.validate input:invalid {
-  outline:#cb2027 solid 1px;
-  background-color:#fce8e8
-}
 #email {
   position:absolute;
   left:38px;
