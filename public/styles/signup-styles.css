@@ -142,7 +142,7 @@
   visibility: hidden;
 }
 .attrEntry input:invalid {
-  outline: initial;
+  outline: inherit;
 }
 #email {
   position:absolute;
