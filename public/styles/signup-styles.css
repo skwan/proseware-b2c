@@ -144,6 +144,9 @@
 .attrEntry input:invalid {
   outline: 0;
 }
+.attrEntry {
+  border-color: initial;
+}
 #email {
   position:absolute;
   left:38px;
