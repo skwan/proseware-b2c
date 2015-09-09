@@ -141,6 +141,9 @@
 .helpText {
   visibility: hidden;
 }
+.attrEntry input:invalid {
+  outline: 0;
+}
 .attrEntry.validate input:invalid {
   outline:#cb2027 solid 1px;
   background-color:#fce8e8
