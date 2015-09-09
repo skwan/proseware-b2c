@@ -144,44 +144,6 @@
 .attrEntry input:invalid {
   outline: 0;
 }
-.attrEntry input {
-  border-color: initial;
-}
-.attrEntry input[autofocus] {
-  background-attachment: scroll;
-  background-clip: padding-box;
-  background-color: rgba(255, 255, 255, 0.901961);
-  background-image: none;
-  background-origin: padding-box;
-  background-size: auto;
-  border-bottom-color: rgba(23, 51, 78, 0.2);
-  border-bottom-left-radius: 2.5px;
-  border-bottom-right-radius: 2.5px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-image-outset: 0px;
-  border-image-repeat: stretch;
-  border-image-slice: 100%;
-  border-image-source: none;
-  border-image-width: 1;
-  border-left-color: rgba(23, 51, 78, 0.168627);
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-right-color: rgba(23, 51, 78, 0.168627);
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-top-color: rgba(23, 51, 78, 0.14902);
-  border-top-left-radius: 2.5px;
-  border-top-right-radius: 2.5px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  box-shadow: rgba(8, 23, 38, 0.0196078) 0px 1px 0px 0px inset, rgba(8, 23, 38, 0.0980392) 0px 0px 2px 0px inset, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px;
-  box-sizing: border-box;
-  color: rgb(51, 51, 51);
-  outline-color: rgb(51, 51, 51);
-  outline-style: none;
-  outline-width: 0px;  
-}
 #email {
   position:absolute;
   left:38px;
