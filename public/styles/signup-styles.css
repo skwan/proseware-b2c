@@ -147,6 +147,9 @@
 .attrEntry input {
   border-color: initial;
 }
+.attrEntry input[autofocus] {
+  border-color: initial;
+}
 #email {
   position:absolute;
   left:38px;
