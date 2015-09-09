@@ -141,8 +141,8 @@
 .helpText {
   visibility: hidden;
 }
-.attrEntry.validate input:invalid {
-  outline: inherit;
+.attrEntry input:invalid {
+  outline: 0;
 }
 #email {
   position:absolute;
