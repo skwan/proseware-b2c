@@ -144,7 +144,7 @@
 .attrEntry input:invalid {
   outline: 0;
 }
-.attrEntry {
+.attrEntry input {
   border-color: initial;
 }
 #email {
