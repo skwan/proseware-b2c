@@ -151,7 +151,7 @@
     border-radius: 2.5px;
     outline:0;
 }
-.attrEntry input:[autofocus] {
+.attrEntry input[autofocus] {
   border-color: hsla(210,54%,20%,.15) hsla(210,54%,20%,.17) hsla(210,54%,20%,.2); !important
 }
 .attrEntry input:focus {
