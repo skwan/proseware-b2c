@@ -141,6 +141,9 @@
 .helpText {
   visibility: hidden;
 }
+.tiny {
+  display: none;
+}
 .attrEntry input, .attrEntry input:invalid {
     border: 1px solid;
     border-color: hsla(210,54%,20%,.15) hsla(210,54%,20%,.17) hsla(210,54%,20%,.2);
