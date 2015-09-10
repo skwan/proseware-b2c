@@ -649,7 +649,7 @@
 .buttons button {
   background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
 }
-.buttons button:active {
+.buttons button:hover {
   background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27_mouseOver.png");
 }
 .buttons button:disabled {
