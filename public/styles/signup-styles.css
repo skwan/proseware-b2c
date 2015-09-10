@@ -651,6 +651,9 @@
 }
 #u29.mouseOver {
 }
+.button:disabled {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u29.png");
+}
 #continue {
   position:absolute;
   left:502px;
