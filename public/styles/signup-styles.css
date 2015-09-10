@@ -650,7 +650,7 @@
   background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
 }
 .buttons button:active {
-  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27_mouseOver");
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27_mouseOver.png");
 }
 .buttons button:disabled {
   background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u29.png");
