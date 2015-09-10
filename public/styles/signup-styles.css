@@ -141,8 +141,11 @@
 .helpText {
   visibility: hidden;
 }
-.attrEntry input:invalid {
-  outline: 0;
+.attrEntry input, .attrEntry input:invalid {
+    border: 1px solid;
+    border-color: hsla(210,54%,20%,.15) hsla(210,54%,20%,.17) hsla(210,54%,20%,.2);
+    box-shadow: 0 1px 0 hsla(210,65%,9%,.02) inset,0 0 2px hsla(210,65%,9%,.1) inset,0 1px 0 hsla(0,0%,100%,.2);
+    border-radius: 2.5px;
 }
 #email {
   position:absolute;
