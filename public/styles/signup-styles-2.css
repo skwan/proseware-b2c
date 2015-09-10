@@ -132,10 +132,15 @@
   width:240px;
   word-wrap:break-word;
 }
-#api {
+#attributeVerification {
   position:relative;
   left:502px;
   top:297px;  
+}
+#attr.ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
 #api p {
   visibility: hidden;
