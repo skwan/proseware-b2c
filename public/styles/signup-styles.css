@@ -547,7 +547,6 @@
   line-height:normal;
   border: none;
   background-color: transparent;
-  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
 }
 #email_ver_but_edit {
   position:absolute;
@@ -565,7 +564,6 @@
   line-height:normal;
   border: none;
   background-color: transparent;
-  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
 }
 #email_ver_but_verify {
   position:absolute;
@@ -583,7 +581,6 @@
   line-height:normal;
   border: none;
   background-color: transparent;
-  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
 }
 #email_ver_but_resend {
   position:absolute;
@@ -601,7 +598,6 @@
   line-height:normal;
   border: none;
   background-color: transparent;
-  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
 }
 #email_ver_but_default {
   position:absolute;
@@ -619,7 +615,6 @@
   line-height:normal;
   border: none;
   background-color: transparent;
-  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
 }
 #u28 {
   position:absolute;
@@ -723,8 +718,7 @@
   text-align:center;
   line-height:normal;
   border: none;
-  background-color: transparent;
-  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");  
+  background-color: transparent;  
 }
 #u32 {
   position:absolute;
