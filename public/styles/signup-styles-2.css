@@ -163,7 +163,7 @@
     border-color: hsla(206,100%,60%,.6) hsla(206,76%,52%,.6) hsla(204,100%,40%,.6);
 }
 #email {
-  position:absolute;
+  position:relative;
   left:-464px;
   top:0px;
   width:360px;
@@ -177,9 +177,6 @@
   text-align:left;  
 }
 #email_ver_input {
-  position:absolute;
-  left:38px;
-  top:368px;
   width:360px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -212,6 +209,9 @@
   text-align:left;
 }
 #password {
+  position:relative;
+  top:-200px;
+  left:464px;
   width:360px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -528,17 +528,11 @@
 #u27.mouseOver {
 }
 #email_ver_wait {
-  position:absolute;
-  left:37px;
-  top:354px;
   width:60;
   height:60;
   margin:0;
 }
 #email_ver_but_send {
-  position:absolute;
-  left:37px;
-  top:354px;
   width:112px;
   height:30px;
   margin:0px;
@@ -553,9 +547,6 @@
   background-color: transparent;
 }
 #email_ver_but_edit {
-  position:absolute;
-  left:37px;
-  top:354px;
   width:112px;
   height:30px;
   margin:0px;
@@ -570,9 +561,6 @@
   background-color: transparent;
 }
 #email_ver_but_verify {
-  position:absolute;
-  left:37px;
-  top:425px;
   width:112px;
   height:30px;
   margin:0px;
@@ -587,9 +575,6 @@
   background-color: transparent;
 }
 #email_ver_but_resend {
-  position:absolute;
-  left:166px;
-  top:425px;
   width:112px;
   height:30px;
   margin:0px;
@@ -604,9 +589,6 @@
   background-color: transparent;
 }
 #email_ver_but_default {
-  position:absolute;
-  left:166px;
-  top:425px;
   width:112px;
   height:30px;
   margin:0px;
