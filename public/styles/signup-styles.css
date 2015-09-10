@@ -651,6 +651,12 @@
 }
 #u29.mouseOver {
 }
+.buttons button {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
+}
+.buttons button:disabled {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u29.png");
+}
 #continue {
   position:absolute;
   left:502px;
@@ -668,9 +674,6 @@
   border: none;
   background-color: transparent;
   background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
-}
-#continue.button:disabled {
-  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u29.png");
 }
 #u30 {
   position:absolute;
