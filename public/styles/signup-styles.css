@@ -531,6 +531,14 @@
 }
 #u27.mouseOver {
 }
+#email_ver_wait {
+  position:absolute;
+  left:37px;
+  top:354px;
+  width:60;
+  height:60;
+  margin:0;
+}
 #email_ver_but_send {
   position:absolute;
   left:37px;
