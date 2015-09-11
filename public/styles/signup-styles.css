@@ -220,7 +220,7 @@
   color:#333333;
   text-align:left;
 }
-#attributeVerification errorText {
+div#attributeVerification errorText {
   position:absolute;
   left:966px;
   top:297px;
