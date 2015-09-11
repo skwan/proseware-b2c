@@ -132,13 +132,14 @@
   width:240px;
   word-wrap:break-word;
 }
-#attributeVerification {
+#api {
   position:relative;
   left:502px;
   top:276px;
 }
-.li {
+div#attributeList ul {
   list-style-type: none;
+  padding:0px
 }
 .attrEntry input, .attrEntry input:invalid {
     border: 1px solid;
