@@ -133,13 +133,13 @@
   word-wrap:break-word;
 }
 #api p {
-  visibility: hidden;
+  display: none;
 }
 #api label {
-  visibility: hidden;
+  display: none;
 }
 .helpText {
-  visibility: hidden;
+  display: none;
 }
 .tiny {
   display: none;
@@ -219,6 +219,19 @@
   text-decoration:none;
   color:#333333;
   text-align:left;
+}
+#passwordEntryMismatch {
+  position:absolute;
+  left:966px;
+  top:297px;
+  width:360px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;  
 }
 #u12 {
   position:absolute;
