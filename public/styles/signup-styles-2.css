@@ -141,18 +141,14 @@ div#attributeList ul {
   list-style-type: none;
   padding:0px
 }
-.attrEntry input, .attrEntry input:invalid {
-    border: 1px solid;
-    border-color: hsla(210,54%,20%,.15) hsla(210,54%,20%,.17) hsla(210,54%,20%,.2);
-    box-shadow: 0 1px 0 hsla(210,65%,9%,.02) inset,0 0 2px hsla(210,65%,9%,.1) inset,0 1px 0 hsla(0,0%,100%,.2);
-    border-radius: 2.5px;
-    outline:0;
-}
-.attrEntry input[autofocus] {
-  border-color: hsla(210,54%,20%,.15) hsla(210,54%,20%,.17) hsla(210,54%,20%,.2); !important
-}
-.attrEntry input:focus {
-    border-color: hsla(206,100%,60%,.6) hsla(206,76%,52%,.6) hsla(204,100%,40%,.6);
+div#attributeList label {
+  font-family:'Arial Regular', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
 }
 #email {
   width:360px;
