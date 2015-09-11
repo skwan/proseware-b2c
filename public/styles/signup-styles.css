@@ -189,7 +189,7 @@
 #email_ver_input {
   position:absolute;
   left:38px;
-  top:368px;
+  top:438px;
   width:360px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -204,7 +204,7 @@
   position:absolute;
   left:38px;
   top:400px;
-  width:360px;
+  width:340px;
   margin:0px;
   font-family:'Segoe UI Regular', 'Segoe UI';
   font-weight:400;
@@ -217,7 +217,7 @@
 #email_info {
   position:absolute;
   left:38px;
-  top:350px;
+  top:368px;
   width:360px;
   margin:0px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -227,6 +227,19 @@
   text-decoration:none;
   color:#333333;
   text-align:left;  
+}
+#email_fail_retry, #email_fail_server {
+  position:absolute;
+  left:38px;
+  top:560px;
+  width:360px;
+  margin:0px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  text-align:left;
 }
 #u11 {
   position:absolute;
@@ -626,7 +639,7 @@
 #email_ver_but_verify {
   position:absolute;
   left:37px;
-  top:425px;
+  top:509px;
   width:112px;
   height:30px;
   margin:0px;
@@ -643,7 +656,7 @@
 #email_ver_but_resend {
   position:absolute;
   left:166px;
-  top:425px;
+  top:509px;
   width:112px;
   height:30px;
   margin:0px;
