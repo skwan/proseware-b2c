@@ -159,9 +159,9 @@
 }
 .errorText {
   position:absolute;
-  left:966px;
-  top:297px;
-  width:360px;
+  left:502px;
+  top:721px;
+  width:330px;
   margin:0px;
   padding: 15px 15px 15px 15px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -201,6 +201,20 @@
   text-align:left;
 }
 #email_intro {
+  position:absolute;
+  left:38px;
+  top:400px;
+  width:340px;
+  margin:0px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;  
+}
+#email_success {
   position:absolute;
   left:38px;
   top:400px;
@@ -276,7 +290,19 @@
   color:#333333;
   text-align:left;
 }
-
+.helptext show {
+  position:absolute;
+  left:966px;
+  top:297px;
+  width:360px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;  
+}
 #u12 {
   position:absolute;
   left:502px;
