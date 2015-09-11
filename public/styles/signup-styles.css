@@ -287,7 +287,11 @@
   color:#333333;
   text-align:left;
 }
+.helpText {
+  display: none;
+}
 .show {
+  display: inline;
   position:absolute;
   left:966px;
   top:297px;
@@ -298,7 +302,8 @@
   font-size:14px;
   text-decoration:none;
   color:#333333;
-  text-align:left;  
+  text-align:left;
+  list-style-type: none;  
 }
 #u12 {
   position:absolute;
