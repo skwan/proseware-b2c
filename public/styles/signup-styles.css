@@ -196,7 +196,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:360px;
+  width:340px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
   font-weight:400;
@@ -220,11 +220,13 @@
   color:#333333;
   text-align:left;
 }
-#passwordEntryMismatch {
+#attributeVerification errorText {
   position:absolute;
   left:966px;
   top:297px;
   width:360px;
+  margin:0px;
+  padding: 15px 15px 15px 15px;
   font-family:'Segoe UI Regular', 'Segoe UI';
   font-weight:400;
   font-style:normal;
