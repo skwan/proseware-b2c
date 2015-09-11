@@ -140,18 +140,6 @@
 .li {
   list-style-type: none;
 }
-#api p {
-  visibility: hidden;
-}
-#api label {
-  visibility: hidden;
-}
-.helpText {
-  visibility: hidden;
-}
-.tiny {
-  display: none;
-}
 .attrEntry input, .attrEntry input:invalid {
     border: 1px solid;
     border-color: hsla(210,54%,20%,.15) hsla(210,54%,20%,.17) hsla(210,54%,20%,.2);
@@ -209,9 +197,6 @@
   text-align:left;
 }
 #password {
-  position:relative;
-  top:-200px;
-  left:464px;
   width:360px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
