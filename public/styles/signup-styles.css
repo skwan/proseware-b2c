@@ -138,9 +138,6 @@
 #api label {
   display: none;
 }
-.helpText {
-  display: none;
-}
 .tiny {
   display: none;
 }
@@ -290,7 +287,7 @@
   color:#333333;
   text-align:left;
 }
-.helptext show {
+.show {
   position:absolute;
   left:966px;
   top:297px;
