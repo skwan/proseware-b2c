@@ -290,21 +290,6 @@
 .helpText {
   display: none;
 }
-.show {
-  display: inline;
-  position:absolute;
-  left:966px;
-  top:297px;
-  width:360px;
-  font-family:'Segoe UI Regular', 'Segoe UI';
-  font-weight:400;
-  font-style:normal;
-  font-size:14px;
-  text-decoration:none;
-  color:#333333;
-  text-align:left;
-  list-style-type: none;  
-}
 #u12 {
   position:absolute;
   left:502px;
