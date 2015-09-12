@@ -218,6 +218,14 @@ app.post('/auth/openid/return',
     res.redirect('/');
   });
 
+// Listen on http but redirect the calls to https
+//
+var http = express.CreateServer();
+http.get('*',function(req,res){  
+    res.redirect('https://proseware.skwantoso.com'+req.url)
+});
+http.listen(8080);
+
 // Enable SSL
 //
 https.createServer(options, app).listen(8443);
