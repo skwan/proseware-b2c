@@ -424,7 +424,10 @@
   line-height:normal;
 }
 #api p {
-  visibility: hidden;
+  display: none;
+}
+#api div p {
+  display: none;
 }
 #GoogleExchange {
   position:absolute;
