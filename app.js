@@ -221,12 +221,11 @@ app.post('/auth/openid/return',
 // Listen on http but redirect the calls to https
 //
 var http = require('http');
-// var http = express.createServer();
-http.createServer(app).listen(8080);
+var http = express.createServer();
 http.get('*',function(req,res){  
     res.redirect('https://proseware.skwantoso.com'+req.url)
 });
-// http.listen(8080);
+http.listen(8080);
 
 // Enable SSL
 //
