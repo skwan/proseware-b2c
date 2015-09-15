@@ -622,7 +622,7 @@
   position:absolute;
   left:37px;
   top:354px;
-  width:112px;
+  width:140px;
   height:30px;
   margin:0px;
   font-family:'Calibri Regular', 'Calibri';
@@ -634,6 +634,10 @@
   line-height:normal;
   border: none;
   background-color: transparent;
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27-wide.png");
+}
+#email_ver_but_send:hover {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27_mouseOver-wide.png");  
 }
 #email_ver_but_edit {
   position:absolute;
