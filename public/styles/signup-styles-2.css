@@ -132,47 +132,25 @@
   width:240px;
   word-wrap:break-word;
 }
-#api p {
-  display: none;
-}
-#api label {
-  display: none;
-}
-.tiny {
-  display: none;
-}
-.attrEntry input, .attrEntry input:invalid {
-    border: 1px solid;
-    border-color: hsla(210,54%,20%,.15) hsla(210,54%,20%,.17) hsla(210,54%,20%,.2);
-    box-shadow: 0 1px 0 hsla(210,65%,9%,.02) inset,0 0 2px hsla(210,65%,9%,.1) inset,0 1px 0 hsla(0,0%,100%,.2);
-    border-radius: 2.5px;
-    outline:0;
-}
-.attrEntry input[autofocus] {
-  border-color: hsla(210,54%,20%,.15) hsla(210,54%,20%,.17) hsla(210,54%,20%,.2); !important
-}
-.attrEntry input:focus {
-    border-color: hsla(206,100%,60%,.6) hsla(206,76%,52%,.6) hsla(204,100%,40%,.6);
-}
-.errorText {
-  position:absolute;
+#api {
+  position:relative;
   left:502px;
-  top:721px;
-  width:330px;
-  margin:0px;
-  padding: 15px 15px 15px 15px;
-  font-family:'Segoe UI Regular', 'Segoe UI';
+  top:276px;
+}
+div#attributeList ul {
+  list-style-type: none;
+  padding:0px
+}
+div#attributeList label {
+  font-family:'Arial Regular', 'Arial';
   font-weight:400;
   font-style:normal;
-  font-size:14px;
-  text-decoration:none;
+  font-size:13px;
   color:#333333;
-  text-align:left;  
+  text-align:left;
+  line-height:normal;
 }
 #email {
-  position:absolute;
-  left:38px;
-  top:297px;
   width:360px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -184,9 +162,6 @@
   text-align:left;  
 }
 #email_ver_input {
-  position:absolute;
-  left:38px;
-  top:438px;
   width:360px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -195,61 +170,6 @@
   font-size:14px;
   text-decoration:none;
   color:#333333;
-  text-align:left;
-}
-#email_intro {
-  position:absolute;
-  left:38px;
-  top:400px;
-  width:340px;
-  margin:0px;
-  font-family:'Segoe UI Regular', 'Segoe UI';
-  font-weight:400;
-  font-style:normal;
-  font-size:14px;
-  text-decoration:none;
-  color:#333333;
-  text-align:left;  
-}
-#email_success {
-  position:absolute;
-  left:38px;
-  top:400px;
-  width:340px;
-  margin:0px;
-  font-family:'Segoe UI Regular', 'Segoe UI';
-  font-weight:400;
-  font-style:normal;
-  font-size:14px;
-  text-decoration:none;
-  color:#333333;
-  text-align:left;  
-}
-#email_info {
-  position:absolute;
-  left:38px;
-  top:368px;
-  width:360px;
-  margin:0px;
-  font-family:'Segoe UI Regular', 'Segoe UI';
-  font-weight:400;
-  font-style:normal;
-  font-size:14px;
-  text-decoration:none;
-  color:#333333;
-  text-align:left;  
-}
-#email_fail_retry, #email_fail_server {
-  position:absolute;
-  left:38px;
-  top:560px;
-  width:360px;
-  margin:0px;
-  font-family:'Segoe UI Regular', 'Segoe UI';
-  font-weight:400;
-  font-style:normal;
-  font-size:14px;
-  text-decoration:none;
   text-align:left;
 }
 #u11 {
@@ -263,20 +183,6 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:340px;
-  height:35px;
-  font-family:'Segoe UI Regular', 'Segoe UI';
-  font-weight:400;
-  font-style:normal;
-  font-size:14px;
-  text-decoration:none;
-  color:#333333;
-  text-align:left;
-}
-#password {
-  position:absolute;
-  left:502px;
-  top:297px;
   width:360px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -287,8 +193,16 @@
   color:#333333;
   text-align:left;
 }
-.helpText {
-  display: none;
+#password {
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;
 }
 #u12 {
   position:absolute;
@@ -338,9 +252,6 @@
   text-align:left;
 }
 #reenterPassword {
-  position:absolute;
-  left:502px;
-  top:368px;
   width:360px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -399,9 +310,6 @@
   text-align:left;
 }
 #displayName {
-  position:absolute;
-  left:503px;
-  top:438px;
   width:360px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -460,9 +368,6 @@
   text-align:left;
 }
 #extension_MembershipNumber {
-  position:absolute;
-  left:503px;
-  top:509px;
   width:360px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -546,9 +451,6 @@
   color:#0D0D0D;
 }
 #extension_OfferingType {
-  position:absolute;
-  left:502px;
-  top:583px;
   width:361px;
   height:35px;
   font-family:'Segoe UI Regular', 'Segoe UI';
@@ -608,17 +510,11 @@
 #u27.mouseOver {
 }
 #email_ver_wait {
-  position:absolute;
-  left:37px;
-  top:354px;
   width:60;
   height:60;
   margin:0;
 }
 #email_ver_but_send {
-  position:absolute;
-  left:37px;
-  top:354px;
   width:112px;
   height:30px;
   margin:0px;
@@ -633,9 +529,6 @@
   background-color: transparent;
 }
 #email_ver_but_edit {
-  position:absolute;
-  left:37px;
-  top:354px;
   width:112px;
   height:30px;
   margin:0px;
@@ -650,9 +543,6 @@
   background-color: transparent;
 }
 #email_ver_but_verify {
-  position:absolute;
-  left:37px;
-  top:509px;
   width:112px;
   height:30px;
   margin:0px;
@@ -667,9 +557,6 @@
   background-color: transparent;
 }
 #email_ver_but_resend {
-  position:absolute;
-  left:166px;
-  top:509px;
   width:112px;
   height:30px;
   margin:0px;
@@ -684,9 +571,6 @@
   background-color: transparent;
 }
 #email_ver_but_default {
-  position:absolute;
-  left:166px;
-  top:425px;
   width:112px;
   height:30px;
   margin:0px;
@@ -744,9 +628,6 @@
   cursor: default;
 }
 #continue {
-  position:absolute;
-  left:502px;
-  top:652px;
   width:112px;
   height:30px;
   margin:0px;
@@ -791,9 +672,6 @@
 #u31.mouseOver {
 }
 #cancel {
-  position:absolute;
-  left:631px;
-  top:652px;
   width:112px;
   height:30px;
   margin:0px;
