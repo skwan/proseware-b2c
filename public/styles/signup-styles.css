@@ -613,9 +613,9 @@
 #email_ver_wait {
   position:absolute;
   left:37px;
-  top:354px;
-  width:60;
-  height:60;
+  top:324px;
+  width:360px;
+  height:60px;
   margin:0;
 }
 #email_ver_but_send {
