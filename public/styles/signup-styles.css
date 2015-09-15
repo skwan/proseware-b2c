@@ -138,6 +138,9 @@
 #api label {
   display: none;
 }
+#api div div div p {
+  display: none;
+}
 .tiny {
   display: none;
 }
