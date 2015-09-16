@@ -411,45 +411,6 @@
   width:250px;
   height:46px;
 }
-#api {
-  position:absolute;
-  left:480px;
-  top:240px;
-  width:422px;
-  height:340px;
-  overflow:hidden;
-  font-size:13px;
-  color:#333333;
-  text-align:center;
-  line-height:normal;
-}
-#api p {
-  display: none;
-}
-#api div div div {
-  display: none;
-}
-#GoogleExchange {
-  position:absolute;
-  left:83px;
-  top:63px;
-  width:250px;
-  height:46px;
-  margin:0px;
-  font-family:'Arial Regular', 'Arial';
-  font-weight:400;
-  font-style:normal;
-  font-size:15px;
-  color:#FFFFFF;
-  text-align:center;
-  line-height:normal;
-  border:none;
-  background-color: transparent;  
-  background-image: url("https://proseware.skwantoso.com/public/images/u13.png");  
-}
-#GoogleExchange:hover {
-  background-image: url("https://proseware.skwantoso.com/public/images/u13_mouseOver.png");  
-}
 #u30_img.mouseOver {
 }
 #u30.mouseOver {
@@ -477,27 +438,6 @@
   top:0px;
   width:250px;
   height:46px;
-}
-#FacebookExchange {
-  position:absolute;
-  left:83px;
-  top:118px;
-  width:250px;
-  height:46px;
-  margin:0px;
-  font-family:'Arial Regular', 'Arial';
-  font-weight:400;
-  font-style:normal;
-  font-size:15px;
-  color:#FFFFFF;
-  text-align:center;
-  line-height:normal;
-  border:none;
-  background-color: transparent;
-  background-image: url("https://proseware.skwantoso.com/public/images/u15.png");  
-}
-#FacebookExchange:hover {
-  background-image: url("https://proseware.skwantoso.com/public/images/u15_mouseOver.png");  
 }
 #u32_img.mouseOver {
 }
@@ -554,48 +494,6 @@
   top:0px;
   width:250px;
   height:46px;
-}
-#SignUpWithLogonEmailExchange {
-  position:absolute;
-  left:83px;
-  top:259px;
-  width:250px;
-  height:46px;
-  margin:0px;
-  font-family:'Arial Regular', 'Arial';
-  font-weight:400;
-  font-style:normal;
-  font-size:15px;
-  color:#FFFFFF;
-  text-align:center;
-  line-height:normal;
-  border:none;
-  background-color: transparent;
-  background-image: url("https://proseware.skwantoso.com/public/images/u19.png");  
-}
-#SignUpWithLogonEmailExchange:hover {
-  background-image: url("https://proseware.skwantoso.com/public/images/u19_mouseOver.png");  
-}
-#SignInWithLogonNameExchange {
-  position:absolute;
-  left:83px;
-  top:259px;
-  width:250px;
-  height:46px;
-  margin:0px;
-  font-family:'Arial Regular', 'Arial';
-  font-weight:400;
-  font-style:normal;
-  font-size:15px;
-  color:#FFFFFF;
-  text-align:center;
-  line-height:normal;
-  border:none;
-  background-color: transparent;
-  background-image: url("https://proseware.skwantoso.com/public/images/u19.png");  
-}
-#SignInWithLogonNameExchange:hover {
-  background-image: url("https://proseware.skwantoso.com/public/images/u19_mouseOver.png");  
 }
 #u36_img.mouseOver {
 }
@@ -809,6 +707,111 @@
   height:100px;
   overflow:hidden;
   background-image:url('https://proseware.skwantoso.com/public/images/transparent.gif');
+}
+
+/* Adjustments to stock file from designer */
+
+#api {
+  position:absolute;
+  left:480px;
+  top:240px;
+  width:422px;
+  height:340px;
+  overflow:hidden;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+#api p {
+  display: none;
+}
+#api div div div {
+  display: none;
+}
+#GoogleExchange {
+  position:absolute;
+  left:83px;
+  top:63px;
+  width:250px;
+  height:46px;
+  margin:0px;
+  font-family:'Arial Regular', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border:none;
+  background-color: transparent;  
+  background-image: url("https://proseware.skwantoso.com/public/images/u13.png");  
+}
+#GoogleExchange:hover {
+  background-image: url("https://proseware.skwantoso.com/public/images/u13_mouseOver.png");  
+}
+#FacebookExchange {
+  position:absolute;
+  left:83px;
+  top:118px;
+  width:250px;
+  height:46px;
+  margin:0px;
+  font-family:'Arial Regular', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border:none;
+  background-color: transparent;
+  background-image: url("https://proseware.skwantoso.com/public/images/u15.png");  
+}
+#FacebookExchange:hover {
+  background-image: url("https://proseware.skwantoso.com/public/images/u15_mouseOver.png");  
+}
+#SignUpWithLogonEmailExchange {
+  position:absolute;
+  left:83px;
+  top:259px;
+  width:250px;
+  height:46px;
+  margin:0px;
+  font-family:'Arial Regular', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border:none;
+  background-color: transparent;
+  background-image: url("https://proseware.skwantoso.com/public/images/u19.png");  
+}
+#SignUpWithLogonEmailExchange:hover {
+  background-image: url("https://proseware.skwantoso.com/public/images/u19_mouseOver.png");  
+}
+#SignInWithLogonNameExchange {
+  position:absolute;
+  left:83px;
+  top:259px;
+  width:250px;
+  height:46px;
+  margin:0px;
+  font-family:'Arial Regular', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border:none;
+  background-color: transparent;
+  background-image: url("https://proseware.skwantoso.com/public/images/u19.png");  
+}
+#SignInWithLogonNameExchange:hover {
+  background-image: url("https://proseware.skwantoso.com/public/images/u19_mouseOver.png");  
 }
 #returnLink {
   position:absolute;
