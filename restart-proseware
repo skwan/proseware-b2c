@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Restarting Proseware server"
+git pull
+pm2 restart app
