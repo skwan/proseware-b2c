@@ -750,6 +750,19 @@
   background-color: transparent;
   background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
 }
+.buttons button {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
+}
+.buttons button:hover {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27_mouseOver.png");
+}
+.buttons button:active {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
+}
+.buttons button:disabled {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u29.png");
+  cursor: default;
+}
 #continue {
   position:absolute;
   left:332px;
@@ -766,7 +779,6 @@
   line-height:normal;
   border: none;
   background-color: transparent;
-  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
 }
 #cancel {
   position:absolute;
@@ -784,6 +796,5 @@
   line-height:normal;
   border: none;
   cursor: pointer;
-  background-color: transparent;
-  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");  
+  background-color: transparent;  
 }
