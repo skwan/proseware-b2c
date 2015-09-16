@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:1367px;
+  width:1026px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -16,21 +16,21 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:1367px;
-  height:900px;
+  width:1025px;
+  height:769px;
 }
 #u0_img {
   position:absolute;
   left:0px;
   top:0px;
-  width:1367px;
-  height:900px;
+  width:1025px;
+  height:769px;
 }
 #u1 {
   position:absolute;
   left:2px;
   top:442px;
-  width:1363px;
+  width:1025px;
   visibility:hidden;
   word-wrap:break-word;
 }
@@ -38,8 +38,8 @@
   position:absolute;
   left:0px;
   top:-10px;
-  width:1367px;
-  height:901px;
+  width:1025px;
+  height:769px;
 }
 #u3_img {
   position:absolute;
@@ -51,8 +51,8 @@
 #u4 {
   position:absolute;
   left:2px;
-  top:442px;
-  width:1363px;
+  top:376px;
+  width:1021px;
   visibility:hidden;
   word-wrap:break-word;
 }
@@ -108,7 +108,7 @@
 }
 #u9 {
   position:absolute;
-  left:502px;
+  left:39px;
   top:276px;
   width:240px;
   height:18px;
@@ -479,8 +479,8 @@
 }
 #u33 {
   position:absolute;
-  left:1146px;
-  top:46px;
+  left:806px;
+  top:51px;
   width:89px;
   height:28px;
   font-family:'Calibri Bold', 'Calibri';
@@ -509,8 +509,8 @@
 }
 #u35 {
   position:absolute;
-  left:1235px;
-  top:46px;
+  left:895px;
+  top:51px;
   width:89px;
   height:28px;
   font-family:'Calibri Bold', 'Calibri';
@@ -616,7 +616,7 @@
 }
 #displayName {
   position:absolute;
-  left:503px;
+  left:502px;
   top:438px;
   width:360px;
   height:35px;
@@ -630,7 +630,7 @@
 }
 #extension_MembershipNumber {
   position:absolute;
-  left:503px;
+  left:502px;
   top:509px;
   width:360px;
   height:35px;
@@ -662,7 +662,7 @@
 }
 #email_ver_but_send {
   position:absolute;
-  left:501px;
+  left:502px;
   top:354px;
   width:112px;
   height:30px;
@@ -680,7 +680,7 @@
 }
 #email_ver_but_edit {
   position:absolute;
-  left:501px;
+  left:502px;
   top:354px;
   width:112px;
   height:30px;
@@ -698,7 +698,7 @@
 }
 #email_ver_but_verify {
   position:absolute;
-  left:501px;
+  left:502px;
   top:354px;
   width:112px;
   height:30px;
