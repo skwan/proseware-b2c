@@ -1,0 +1,895 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1367px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1367px;
+  height:900px;
+}
+#u0_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1367px;
+  height:900px;
+}
+#u1 {
+  position:absolute;
+  left:2px;
+  top:442px;
+  width:1363px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u3 {
+  position:absolute;
+  left:0px;
+  top:-10px;
+  width:1367px;
+  height:901px;
+}
+#u3_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1367px;
+  height:901px;
+}
+#u4 {
+  position:absolute;
+  left:2px;
+  top:442px;
+  width:1363px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u5 {
+  position:absolute;
+  left:39px;
+  top:220px;
+  width:360px;
+  height:30px;
+  font-family:'Agency FB Regular', 'Agency FB';
+  font-weight:400;
+  font-style:normal;
+  font-size:24px;
+}
+#u5_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:360px;
+  height:30px;
+}
+#u6 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:360px;
+  word-wrap:break-word;
+}
+#u7 {
+  position:absolute;
+  left:503px;
+  top:220px;
+  width:360px;
+  height:30px;
+  font-family:'Agency FB Regular', 'Agency FB';
+  font-weight:400;
+  font-style:normal;
+  font-size:24px;
+}
+#u7_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:360px;
+  height:30px;
+}
+#u8 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:360px;
+  word-wrap:break-word;
+}
+#u9 {
+  position:absolute;
+  left:39px;
+  top:276px;
+  width:240px;
+  height:18px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#797979;
+}
+#u9_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  height:18px;
+}
+#u10 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  word-wrap:break-word;
+}
+#u11 {
+  position:absolute;
+  left:502px;
+  top:297px;
+  width:360px;
+  height:35px;
+}
+#u11_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:340px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;
+}
+#u12 {
+  position:absolute;
+  left:502px;
+  top:276px;
+  width:240px;
+  height:18px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#797979;
+}
+#u12_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  height:18px;
+}
+#u13 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  word-wrap:break-word;
+}
+#u14 {
+  position:absolute;
+  left:502px;
+  top:368px;
+  width:360px;
+  height:35px;
+}
+#u14_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;
+}
+#reenterPassword {
+  position:absolute;
+  left:502px;
+  top:368px;
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;  
+}
+#u15 {
+  position:absolute;
+  left:502px;
+  top:347px;
+  width:240px;
+  height:18px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#797979;
+}
+#u15_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  height:18px;
+}
+#u16 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  word-wrap:break-word;
+}
+#u17 {
+  position:absolute;
+  left:503px;
+  top:438px;
+  width:360px;
+  height:35px;
+}
+#u17_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;
+}
+#u18 {
+  position:absolute;
+  left:503px;
+  top:417px;
+  width:240px;
+  height:18px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#797979;
+}
+#u18_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  height:18px;
+}
+#u19 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  word-wrap:break-word;
+}
+#u20 {
+  position:absolute;
+  left:503px;
+  top:509px;
+  width:360px;
+  height:35px;
+}
+#u20_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;
+}
+#u21 {
+  position:absolute;
+  left:503px;
+  top:488px;
+  width:240px;
+  height:18px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#797979;
+}
+#u21_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  height:18px;
+}
+#u22 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  word-wrap:break-word;
+}
+#u23 {
+  position:absolute;
+  left:502px;
+  top:560px;
+  width:240px;
+  height:18px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#797979;
+}
+#u23_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  height:18px;
+}
+#u24 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:240px;
+  word-wrap:break-word;
+}
+#u25 {
+  position:absolute;
+  left:502px;
+  top:583px;
+  width:361px;
+  height:35px;
+}
+#u25_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:361px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#0D0D0D;
+}
+#u26 {
+  position:absolute;
+  left:38px;
+  top:297px;
+  width:360px;
+  height:35px;
+}
+#u26_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;
+}
+#u27 {
+  position:absolute;
+  left:37px;
+  top:354px;
+  width:112px;
+  height:30px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+}
+#u27_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:112px;
+  height:30px;
+}
+#u27_img.mouseOver {
+}
+#u27.mouseOver {
+}
+#u28 {
+  position:absolute;
+  left:2px;
+  top:6px;
+  width:108px;
+  word-wrap:break-word;
+}
+#u29 {
+  position:absolute;
+  left:502px;
+  top:652px;
+  width:112px;
+  height:30px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+}
+#u29_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:112px;
+  height:30px;
+}
+#u29_img.mouseOver {
+}
+#u29.mouseOver {
+}
+#u30 {
+  position:absolute;
+  left:2px;
+  top:6px;
+  width:108px;
+  word-wrap:break-word;
+}
+#u31 {
+  position:absolute;
+  left:631px;
+  top:652px;
+  width:112px;
+  height:30px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+}
+#u31_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:112px;
+  height:30px;
+}
+#u31_img.mouseOver {
+}
+#u31.mouseOver {
+}
+#u32 {
+  position:absolute;
+  left:2px;
+  top:6px;
+  width:108px;
+  word-wrap:break-word;
+}
+#u33 {
+  position:absolute;
+  left:1146px;
+  top:46px;
+  width:89px;
+  height:28px;
+  font-family:'Calibri Bold', 'Calibri';
+  font-weight:700;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+#u33_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:89px;
+  height:28px;
+}
+#u33_img.mouseOver {
+}
+#u33.mouseOver {
+}
+#u34 {
+  position:absolute;
+  left:2px;
+  top:4px;
+  width:85px;
+  word-wrap:break-word;
+}
+#u35 {
+  position:absolute;
+  left:1235px;
+  top:46px;
+  width:89px;
+  height:28px;
+  font-family:'Calibri Bold', 'Calibri';
+  font-weight:700;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+#u35_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:89px;
+  height:28px;
+}
+#u35_img.mouseOver {
+}
+#u35.mouseOver {
+}
+#u36 {
+  position:absolute;
+  left:2px;
+  top:4px;
+  width:85px;
+  word-wrap:break-word;
+}
+#u37 {
+  position:absolute;
+  left:20px;
+  top:10px;
+  width:420px;
+  height:100px;
+  overflow:hidden;
+  background-image:url('https://proseware.skwantoso.com/public/images/transparent.gif');
+}
+
+/* Additions to stock style sheet from designer */
+
+#api p {
+  display: none;
+}
+#api label {
+  display: none;
+}
+#api div div div p {
+  display: none;
+}
+.tiny {
+  display: none;
+}
+.attrEntry input, .attrEntry input:invalid {
+    border: 1px solid;
+    border-color: hsla(210,54%,20%,.15) hsla(210,54%,20%,.17) hsla(210,54%,20%,.2);
+    box-shadow: 0 1px 0 hsla(210,65%,9%,.02) inset,0 0 2px hsla(210,65%,9%,.1) inset,0 1px 0 hsla(0,0%,100%,.2);
+    border-radius: 2.5px;
+    outline:0;
+}
+.attrEntry input[autofocus] {
+  border-color: hsla(210,54%,20%,.15) hsla(210,54%,20%,.17) hsla(210,54%,20%,.2); !important
+}
+.attrEntry input:focus {
+    border-color: hsla(206,100%,60%,.6) hsla(206,76%,52%,.6) hsla(204,100%,40%,.6);
+}
+.errorText {
+  position:absolute;
+  left:502px;
+  top:721px;
+  width:330px;
+  margin:0px;
+  padding: 15px 15px 15px 15px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;  
+}
+#email {
+  position:absolute;
+  left:38px;
+  top:297px;
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;  
+}
+#email_ver_input {
+  position:absolute;
+  left:38px;
+  top:438px;
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;
+}
+#email_intro {
+  position:absolute;
+  left:38px;
+  top:400px;
+  width:340px;
+  margin:0px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;  
+}
+#email_success {
+  position:absolute;
+  left:38px;
+  top:400px;
+  width:340px;
+  margin:0px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;  
+}
+#email_info {
+  position:absolute;
+  left:38px;
+  top:368px;
+  width:360px;
+  margin:0px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;  
+}
+#email_fail_retry, #email_fail_server {
+  position:absolute;
+  left:38px;
+  top:560px;
+  width:360px;
+  margin:0px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  text-align:left;
+}
+#password {
+  position:absolute;
+  left:502px;
+  top:297px;
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;
+}
+.helpText {
+  display: none;
+}
+#displayName {
+  position:absolute;
+  left:503px;
+  top:438px;
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;  
+}
+#extension_MembershipNumber {
+  position:absolute;
+  left:503px;
+  top:509px;
+  width:360px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  color:#333333;
+  text-align:left;  
+}
+#extension_OfferingType {
+  position:absolute;
+  left:502px;
+  top:583px;
+  width:361px;
+  height:35px;
+  font-family:'Segoe UI Regular', 'Segoe UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-decoration:none;
+  text-align:left;
+  line-height:normal;
+  color:#0D0D0D;  
+}
+#u25_input:disabled {
+  color:grayText;
+}
+#email_ver_wait {
+  position:absolute;
+  left:37px;
+  top:324px;
+  width:360px;
+  height:60px;
+  margin:0;
+}
+#email_ver_but_send {
+  position:absolute;
+  left:37px;
+  top:354px;
+  width:140px;
+  height:30px;
+  margin:0px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border: none;
+  background-color: transparent;
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27-wide.png");
+}
+#email_ver_but_send:hover {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27_mouseOver-wide.png");  
+}
+#email_ver_but_edit {
+  position:absolute;
+  left:37px;
+  top:354px;
+  width:112px;
+  height:30px;
+  margin:0px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border: none;
+  background-color: transparent;
+}
+#email_ver_but_verify {
+  position:absolute;
+  left:37px;
+  top:509px;
+  width:112px;
+  height:30px;
+  margin:0px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border: none;
+  background-color: transparent;
+}
+#email_ver_but_resend {
+  position:absolute;
+  left:166px;
+  top:509px;
+  width:112px;
+  height:30px;
+  margin:0px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border: none;
+  background-color: transparent;
+}
+#email_ver_but_default {
+  position:absolute;
+  left:166px;
+  top:425px;
+  width:112px;
+  height:30px;
+  margin:0px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border: none;
+  background-color: transparent;
+}
+.buttons button {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
+}
+.buttons button:hover {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27_mouseOver.png");
+}
+.buttons button:active {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u27.png");
+}
+.buttons button:disabled {
+  background-image: url("https://proseware.skwantoso.com/public/images/sign_in_u29.png");
+  cursor: default;
+}
+#continue {
+  position:absolute;
+  left:502px;
+  top:652px;
+  width:112px;
+  height:30px;
+  margin:0px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border: none;
+  background-color: transparent;
+}
+#cancel {
+  position:absolute;
+  left:631px;
+  top:652px;
+  width:112px;
+  height:30px;
+  margin:0px;
+  font-family:'Calibri Regular', 'Calibri';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+  border: none;
+  background-color: transparent;  
+}
