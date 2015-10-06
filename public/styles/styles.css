@@ -816,14 +816,14 @@
 #returnLink {
   position:absolute;
   left:20px;
-  top:240px;
+  top:200px;
   font-size:20px;
   width:1300px;
 }
 #userDetails {
   position:absolute;
   left:20px;
-  top:300px;
+  top:200px;
   width:1300px;
   font-family: 'Courier New, Courier, monospace';
   font-weight:400;
